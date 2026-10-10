@@ -49,10 +49,5 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(valor_teste - 1, items[5].sell_in)
         self.assertEqual(50, items[5].quality)
 
-        # Verifica o limite máximo de qualidade permitido para um item
-        self.assertEqual("Aged Brie", items[5].name)
-        self.assertEqual(valor_teste - 1, items[5].sell_in)
-        self.assertEqual(50, items[5].quality)
-
 if __name__ == '__main__':
     unittest.main()
